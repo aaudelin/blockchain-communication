@@ -31,7 +31,7 @@ console.log("Parse Balance (using decimals):", ethers.parseUnits(ethers.formatEt
 console.log("Account Address read from wallet:", await signer.address, "\n");
 
 // Sending ether to another address - Uncomment to send
-const toAddress = process.env.PUBLIC_KEY_2;
+const toAddress = process.env.PUBLIC_KEY_TO;
 const amountOfEtherToSend = ethers.parseUnits('0.001', 'ether');
 
 // On recoit en promesse la validation que le noeud l'a recu et qu'elle 
