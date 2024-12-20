@@ -261,8 +261,8 @@ const sendSmallGasLimit = async () => {
 
 // await sendType0(); // https://sepolia.etherscan.io/tx/0xd6c8c0c00215abbe4d754046e78e9f08b85fcfbf9e016c911f5b6fa4772c7d69
 // await sendType2(); // https://sepolia.etherscan.io/tx/0x6bfcfc55f10cad188c9d3dc910aa084d2f501908f5b2430bd3b980ceb63d6f7d
-// await sendSmallNonce(); // code=NONCE_EXPIRED
+// await sendSmallNonce(); // error sending transaction code=NONCE_EXPIRED
 // await sendBigNonce(); // NOT FOUND https://sepolia.etherscan.io/tx/0x24c2e7ae0a308a3186d4203dfd7fe305c7f8a2e7a7c4af9ef001f81854ab58a2
-await sendSmallGasPrice();
-await sendBigGasPrice();
-await sendSmallGasLimit();
+// await sendSmallGasPrice(); // https://sepolia.etherscan.io/tx/0xed76ea80a436b695f8f5bd93e50ae28a7458bd2d1ee6a2ad0ee3cff9657ab333
+// await sendBigGasPrice(); // https://sepolia.etherscan.io/tx/0x5509a04b99fa059981cffa2c2ff7a958bd1044f316928ea9ee4c580adfd7853a
+// await sendSmallGasLimit(); // error intrinsic gas too low: gas 1000, minimum needed 21000
