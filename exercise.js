@@ -192,5 +192,5 @@ const sendSmallGasPrice = async () => {
 // await sendType0(); // https://sepolia.etherscan.io/tx/0xd6c8c0c00215abbe4d754046e78e9f08b85fcfbf9e016c911f5b6fa4772c7d69
 // await sendType2(); // https://sepolia.etherscan.io/tx/0x6bfcfc55f10cad188c9d3dc910aa084d2f501908f5b2430bd3b980ceb63d6f7d
 // await sendSmallNonce(); // code=NONCE_EXPIRED
-// await sendBigNonce(); // NOT FOUND 0x24c2e7ae0a308a3186d4203dfd7fe305c7f8a2e7a7c4af9ef001f81854ab58a2
+// await sendBigNonce(); // NOT FOUND https://sepolia.etherscan.io/tx/0x24c2e7ae0a308a3186d4203dfd7fe305c7f8a2e7a7c4af9ef001f81854ab58a2
 await sendSmallGasPrice();
