@@ -1,6 +1,7 @@
 import { ethers } from "ethers";
 import dotenv from "dotenv";
-import abi from "./abi.json" assert { type: "json" };
+import { readFileSync } from 'fs';
+const abi = JSON.parse(readFileSync(new URL('./abi.json', import.meta.url)));
 
 // Load the environment variables
 dotenv.config();
